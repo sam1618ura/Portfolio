@@ -276,9 +276,8 @@ export default function SaVa() {
       </section>
 
       {/* Images gallery */}
-        <SectionTitle>Props </SectionTitle>
+      <SectionTitle>Props </SectionTitle>
       <section className="mx-auto grid max-w-7xl grid-cols-1 gap-2 px-6 pb-16 lg:grid-cols-2">
-
         {images.slice(2, 4).map((image, index) => (
           <div
             key={image.src}
@@ -300,9 +299,8 @@ export default function SaVa() {
         ))}
       </section>
 
-        <SectionTitle>Backgrounds </SectionTitle>
+      <SectionTitle>Backgrounds </SectionTitle>
       <section className="mx-auto grid max-w-7xl grid-cols-1 gap-2 px-6 pb-16 lg:grid-cols-3">
-
         {images.slice(4, 9).map((image, index) => (
           <div
             key={image.src}
