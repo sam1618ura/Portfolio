@@ -180,6 +180,24 @@ const Heading = ({ children }) => (
   </h2>
 );
 
+const GridTileSolo = ({ image, onOpen }) => (
+  <div className="group relative mx-auto flex w-full items-center justify-center overflow-hidden rounded-xs">
+    <img
+      src={image.src}
+      alt={image.alt}
+      onClick={onOpen}
+      loading="lazy"
+      className="h-auto max-h-[600px] w-full max-w-sm cursor-zoom-in object-contain py-10 transition-opacity duration-300 group-hover:opacity-60"
+    />
+
+    <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#7B052A]/85 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+      <p className="Adorn-Engraved-Expanded px-4 text-center text-xl text-white">
+        {image.title}
+      </p>
+    </div>
+  </div>
+);
+
 const GridTile = ({ image, onOpen }) => (
   <div className="group relative overflow-hidden rounded-xs">
     <img
@@ -187,7 +205,7 @@ const GridTile = ({ image, onOpen }) => (
       alt={image.alt}
       onClick={onOpen}
       loading="lazy"
-      className="h-72 w-full cursor-zoom-in object-cover transition-opacity duration-300 group-hover:opacity-60"
+      className="h-auto w-full cursor-zoom-in object-contain transition-opacity duration-300 group-hover:opacity-60 md:h-72 md:object-cover"
     />
 
     <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#7B052A]/85 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -208,7 +226,11 @@ export default function Fantasmatic() {
   const gallery = (from, to, className) => (
     <section className={className}>
       {images.slice(from, to).map((image, i) => (
-        <GridTile key={image.src} image={image} onOpen={() => setSel(from + i)} />
+        <GridTile
+          key={image.src}
+          image={image}
+          onOpen={() => setSel(from + i)}
+        />
       ))}
     </section>
   );
@@ -246,7 +268,10 @@ export default function Fantasmatic() {
           ))}
         </div>
 
-        <GridTile image={images[0]} onOpen={() => setSel(0)} />
+        <GridTileSolo
+          image={images[0]}
+          onOpen={() => setSel(0)}
+        />
       </section>
 
       {/* Pitch */}
@@ -254,7 +279,9 @@ export default function Fantasmatic() {
         <h2 className="mb-4 text-xl font-bold uppercase tracking-wide text-[#7B052A]">
           Pitch
         </h2>
-        <p className="text-xl leading-relaxed">{pitch}</p>
+        <p className="space-y-6 text-lg leading-relaxed text-justify">
+          {pitch}
+        </p>
       </section>
 
       {/* Storyboard */}
@@ -268,7 +295,9 @@ export default function Fantasmatic() {
       {gallery(4, 5, "mx-auto max-w-3xl px-6 pb-6")}
 
       <section className="mx-auto max-w-4xl px-6 pb-10">
-        <p className="text-lg leading-relaxed">{characterText}</p>
+        <p className="space-y-6 text-lg leading-relaxed text-justify">
+          {characterText}
+        </p>
       </section>
 
       {/* Character Design images: uniform sizes */}

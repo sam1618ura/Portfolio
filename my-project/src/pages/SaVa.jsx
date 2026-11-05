@@ -227,27 +227,33 @@ export default function SaVa() {
           </p>
 
           <p>
-            Le thème portait sur : "Petit Géant" Je voulais répondre au thème
-            sans prendre le sens propre mais plutôt figuré tout en mettant
-            l'accent sur l'aspect psychologique du personnage.
+            Le thème portait sur :
+            <span className="italic text-[#7B052A] px-1">Petit Géant</span>. Je
+            voulais répondre au thème sans prendre le sens propre mais plutôt
+            figuré tout en mettant l'accent sur l'aspect psychologique du
+            personnage.
           </p>
 
           <p>
             Je l'ai raconté de cette manière car je pense que c'est toujours
             intéressant de représenter un état mental de manière graphique, de
             plus cela laisse une grande liberté d'interprétation, rien que
-            concernant la safe place. Comment représenter un endroit où on se
-            sent bien mentalement ?
+            concernant la safe place.
+            <span className="italic text-[#7B052A] px-1">
+              Comment représenter un endroit où on se sent bien mentalement ?
+            </span>
           </p>
 
           <p>
-            Est-ce qu'il s'agit d'un lieu précis ou abstrait ? Je ne suis pas
-            particulièrement confrontée à des crises d'angoisse aussi intenses
-            que le personnage que j'ai mis en scène, mais j'ai toujours été
-            fasciné par la mentalité des gens de manière générale. La perception
-            du monde à travers les yeux de chacun est, à mon sens, très
-            intéressante et essayer de la comprendre à travers l'art est un défi
-            qui me plait beaucoup.
+            <span className="italic text-[#7B052A] px-1">
+              Est-ce qu'il s'agit d'un lieu précis ou abstrait ?
+            </span>
+            Je ne suis pas particulièrement confrontée à des crises d'angoisse
+            aussi intenses que le personnage que j'ai mis en scène, mais j'ai
+            toujours été fasciné par la mentalité des gens de manière générale.
+            La perception du monde à travers les yeux de chacun est, à mon sens,
+            très intéressante et essayer de la comprendre à travers l'art est un
+            défi qui me plait beaucoup.
           </p>
 
           <p>

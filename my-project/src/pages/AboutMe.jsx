@@ -45,14 +45,16 @@ export default function AboutMe() {
 
             <div className="mx-auto max-w-4xl space-y-5 text-center text-lg leading-relaxed text-white/90 md:text-xl">
               <p>
-                "Toutes les histoires méritent d'être racontées." C'est une
-                devise que je nourris depuis toujours. Faire vivre les récits de
-                ceux qu'on n'entend pas en me plongeant dans la psychologie des
-                personnages est une perspective que j'aimerais faire exister
-                sous n'importe quelle forme. Faire rêver ou s'interroger les
-                gens sur divers sujets à travers l'absurde, la romance,
-                l'histoire ou la fantaisie, tout en gardant un angle mature,
-                c'est ce que je préfère.
+                <span className="font-bold italic text-[#7B052A]">
+                  « Toutes les histoires méritent d'être racontées. »
+                </span>{" "}
+                C'est une devise que je nourris depuis toujours. Faire vivre les
+                récits de ceux qu'on n'entend pas en me plongeant dans la
+                psychologie des personnages est une perspective que j'aimerais
+                faire exister sous n'importe quelle forme. Faire rêver ou
+                s'interroger les gens sur divers sujets à travers l'absurde, la
+                romance, l'histoire ou la fantaisie, tout en gardant un angle
+                mature, c'est ce que je préfère.
               </p>
 
               <p className="text-white/80 py-6">

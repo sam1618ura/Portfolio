@@ -29,7 +29,7 @@ export default function Navbar() {
 
         <Link
           to="/"
-          className="absolute left-1/2 -translate-x-1/2 whitespace-nowrap text-xl text-white hover:text-gray-900 sm:text-xl"
+          className="absolute left-4 -translate-x-3 whitespace-nowrap text-base text-white hover:text-gray-900 md:left-1/2 md:-translate-x-1/2 sm:text-xl"
         >
           Samanda MASDURAUD URREA
         </Link>

@@ -145,7 +145,7 @@ export default function SousPression() {
   );
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-[#212121] text-white">
       <Navbar />
 
       {/* introduction */}
@@ -322,20 +322,20 @@ export default function SousPression() {
       </section>
 
       {/* tout les autres images */}
-      <section className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-6 pb-16 sm:grid-cols-2">
+      <section className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-6 pb-16 md:grid-cols-2">
         {images.slice(3, 18).map((image, index) => {
           const actualIndex = index + 3;
 
           return (
             <div
               key={image.src}
-              className="group relative h-72 w-full overflow-hidden rounded-xs"
+              className="group relative h-auto w-full overflow-hidden rounded-xs md:h-72"
             >
               <img
                 src={image.src}
                 alt={image.alt}
                 onClick={() => setSelectedImageIndex(actualIndex)}
-                className="h-full w-full cursor-zoom-in object-cover transition-opacity duration-300 group-hover:opacity-60"
+                className="h-auto w-full cursor-zoom-in object-contain transition-opacity duration-300 md:h-full md:object-cover group-hover:opacity-60"
               />
 
               <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-[#7B052A]/70 opacity-0 transition-opacity duration-300 group-hover:opacity-100">

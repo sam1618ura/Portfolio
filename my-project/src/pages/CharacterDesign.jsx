@@ -112,23 +112,28 @@ const images = [
 ];
 
 const tight = "mx-auto grid max-w-6xl items-start gap-3 px-6 pb-3";
-const wide = "mx-auto grid max-w-7xl grid-cols-1 gap-6 px-6 pb-16";
+const wide = "mx-auto grid max-w-7xl grid-cols-1 gap-6 px-6 pb-3";
 const img = "w-full cursor-zoom-in hover:opacity-80";
-const cover = `${img} h-full object-cover transition-opacity`;
+const cover = `${img} h-auto object-contain transition-opacity md:h-full md:object-cover`;
 
 // [from, to, section classes, image classes]
 const sections = [
-  [0, 2, `${tight} grid-cols-1`, `${img} h-auto rounded-xs object-contain`],
-  [2, 4, `${tight} grid-cols-2`, `${img} h-90 rounded-xs object-contain`],
+  [0, 2, `${tight}`, `${img} h-auto rounded-xs object-contain`],
+  [
+    2,
+    4,
+    `${tight} grid-cols-2`,
+    `${img} h-30 md:h-90 rounded-xs object-contain`,
+  ],
   [
     4,
     10,
-    `${tight} grid-cols-2`,
-    `${img} h-80 object-cover transition-opacity`,
+    `${tight}  md:grid-cols-2`,
+    `${img} h-auto md:h-80 object-cover transition-opacity`,
   ],
-  [10, 11, `${tight} grid-cols-1`, cover],
-  [12, 18, `${wide} sm:grid-cols-2`, cover],
-  [18, 21, `${wide} sm:grid-cols-3`, cover],
+  [10, 11, `${tight}`, cover],
+  [12, 18, `${wide}  md:grid-cols-2`, cover],
+  [18, 21, `${wide} md:grid-cols-3`, cover],
 ];
 
 const arrow =
@@ -158,7 +163,7 @@ export default function CharacterDesign() {
           {images.slice(from, to).map((image, i) => (
             <div
               key={image.src}
-              className="group relative overflow-hidden rounded-xs"
+              className="group relative overflow-hidden rounded-xs grid-cols-1"
             >
               <img
                 src={image.src}

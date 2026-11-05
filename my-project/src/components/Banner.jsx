@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <section className="relative isolate h-[360px] w-full overflow-hidden md:h-[670px]">
+    <section className="relative isolate h-[460px] w-full overflow-hidden md:h-[670px]">
       {/* Background image */}
       <img
         src="/banner/banner.png"

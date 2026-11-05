@@ -180,7 +180,7 @@ export default function BathTrip() {
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#7b052a]">
               ⚠ Trigger warning
             </p>
-            <p className="max-w-md text-base leading-relaxed text-white/90">
+            <p className="max-w-md text-sm md:text-base leading-relaxed text-white/90">
               Cette vidéo contient des images clignotantes/flashs et des effets
               lumineux pouvant provoquer des crises chez les personnes
               épileptiques ou photosensibles.
@@ -188,7 +188,7 @@ export default function BathTrip() {
             <button
               type="button"
               onClick={() => setShowVideo(true)}
-              className="rounded-full bg-white px-6 py-2 text-sm font-semibold text-black transition-colors hover:bg-[#7b052a] hover:text-white focus-visible:outline-2 focus-visible:outline-[#7b052a]"
+              className="rounded-full bg-white md:px-6 md:py-2 py-1 px-3 text-sm font-semibold text-black transition-colors hover:bg-[#7b052a] hover:text-white focus-visible:outline-2 focus-visible:outline-[#7b052a]"
             >
               Je comprends. Voir la vidéo
             </button>

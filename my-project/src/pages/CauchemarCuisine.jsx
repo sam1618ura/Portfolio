@@ -75,7 +75,7 @@ export default function CauchemarEnCuisine() {
     <main className="min-h-screen bg-[#212121] text-white">
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 py-8 text-center sm:px-6 sm:py-12">
+      <section className="mx-auto max-w-5xl px-4 py-8 text-center md:px-6 md:py-12">
         <h1 className="mb-3 text-3xl font-bold leading-tight sm:text-4xl">
           Cauchemar en Cuisine
         </h1>
@@ -128,7 +128,7 @@ export default function CauchemarEnCuisine() {
       </section>
 
       {/* Video */}
-      <section className="mx-auto max-w-4xl px-6 pb-12">
+      <section className="mx-auto max-w-4xl px-4 py-8 md:px-6 md:py-12">
         <video
           className="w-full rounded-xs shadow-md"
           controls
@@ -142,7 +142,7 @@ export default function CauchemarEnCuisine() {
       </section>
 
       {/* Three images */}
-      <section className="mx-auto max-w-6xl px-6 py-12">
+      <section className="mx-auto max-w-6xl px-6 py-2 md:py-12">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
           {images.slice(1).map((image, index) => (
             <Tile
@@ -152,9 +152,7 @@ export default function CauchemarEnCuisine() {
             />
           ))}
         </div>
-
       </section>
-
 
       <Modal
         isOpen={selectedImageIndex !== null}
