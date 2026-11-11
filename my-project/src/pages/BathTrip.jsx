@@ -22,7 +22,7 @@ const images = [
   {
     src: "../images/bath-trip/img_4.png",
     alt: "Character design scene 4",
-    title: "Image 4",
+    title: "Color",
   },
   {
     src: "../images/bath-trip/img_5.png",
