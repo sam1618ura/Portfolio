@@ -38,7 +38,7 @@ export default function SousPression() {
     {
       src: "../images/sous_pression/img_2.png",
       alt: "Character design scene 2",
-      title: "Image 2",
+      title: "The team",
     },
     {
       src: "../images/sous_pression/img_3.png",
