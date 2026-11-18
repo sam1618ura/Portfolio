@@ -43,85 +43,85 @@ export default function SousPression() {
     {
       src: "../images/sous_pression/img_3.png",
       alt: "Character design scene 3",
-      title: "Image 3",
+      title: "Titre",
     },
     {
       src: "../images/sous_pression/img_4.png",
       alt: "Character design scene 4",
-      title: "Image 4",
+      title: "Character design",
     },
     {
       src: "../images/sous_pression/img_5.png",
       alt: "Character design scene 5",
-      title: "Image 5",
+      title: "Stud Recherches",
     },
     {
       src: "../images/sous_pression/img_6.png",
       alt: "Character design scene 6",
-      title: "Image 6",
+      title: "Stud Armures",
     },
     {
       src: "../images/sous_pression/img_7.png",
       alt: "Character design scene 7",
-      title: "Image 7",
+      title: "Recherches lines",
     },
     {
       src: "../images/sous_pression/img_8.png",
       alt: "Character design scene 8",
-      title: "Épée réalisée par Mylène Wozniak",
+      title: "Trun de Stud (Épée réalisée par Mylène Wozniak)",
     },
     {
       src: "../images/sous_pression/img_9.png",
       alt: "Character design scene 9",
-      title: "Image 9",
+      title: "Arthur Turn",
     },
     {
       src: "../images/sous_pression/img_10.png",
       alt: "Character design scene 10",
-      title: "Image 10",
+      title: "Arthur Recheches",
     },
     {
       src: "../images/sous_pression/img_11.png",
       alt: "Character design scene 11",
-      title: "Image 11",
+      title: "Arthur Armures",
     },
     {
       src: "../images/sous_pression/img_12.png",
       alt: "Character design scene 12",
-      title: "Image 12",
+      title: "Couleur de Jessica",
     },
     {
       src: "../images/sous_pression/img_13.png",
       alt: "Character design scene 13",
-      title: "Image 13",
+      title: "Mains de Jessica",
     },
     {
       src: "../images/sous_pression/img_14.png",
       alt: "Character design scene 14",
-      title: "Image 14",
+      title: "Monstre Jessica mains Pieds",
     },
     {
       src: "../images/sous_pression/img_15.png",
       alt: "Character design scene 15",
-      title: "Image 15",
+      title: "Turn monstre Jessica",
     },
     {
       src: "../images/sous_pression/gif_1.gif",
       alt: "Gif 1",
       title:
-        "Réalisation du turn par moi-même. Clean et Colo réalisées par Maëlle Chaize",
+        "Réalisation du turn par moi-même. (Clean et Colo réalisées par Maëlle Chaize)",
     },
     {
       src: "../images/sous_pression/gif_2.gif",
       alt: "Gif 2",
       title:
-        "Réalisation du turn par moi-même. Clean et Colo réalisée par Maëlle Chaize",
+        "Réalisation du turn par moi-même. (Clean et Colo réalisée par Maëlle Chaize)",
     },
     {
       src: "../images/sous_pression/gif_3.gif",
       alt: "Gif 3",
       title:
-        "Réalisation du turn par moi-même  Clean et Colo réalisée par Mylène Wozniak",
+        "Réalisation du turn par moi-même  (Clean et Colo réalisée par Mylène Wozniak)",
     },
   ];
 
