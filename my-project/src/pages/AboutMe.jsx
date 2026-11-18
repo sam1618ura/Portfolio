@@ -75,7 +75,7 @@ export default function AboutMe() {
             {/* French CV */}
             <div className="flex flex-col items-center gap-4 text-center">
               <h3 className="Adorn-Engraved-Expanded text-lg font-medium text-white sm:text-xl">
-                Télécharger mon CV
+                Voir mon CV
               </h3>
 
               <a
